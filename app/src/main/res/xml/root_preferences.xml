@@ -45,13 +45,11 @@
 
         <com.android.settings.custom.preference.SystemSettingSwitchPreference
             android:key="gamespace_suppress_fullscreen_intent"
-            android:summary="@string/suppress_fullscreen_intent_summary"
             android:title="@string/suppress_fullscreen_intent_title" />
 
         <SwitchPreferenceCompat
             android:defaultValue="true"
             android:key="gamespace_danmaku_notification_mode"
-            android:summary="@string/danmaku_notification_mode_summary"
             android:title="@string/danmaku_notification_mode_title" />
 
         <SwitchPreferenceCompat
